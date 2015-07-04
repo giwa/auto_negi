@@ -4,7 +4,7 @@ from tempfile import NamedTemporaryFile
 negi_conf_tmpl = """
 type pcap
 filename {pcap_path}
-dbname {db_path}.sqlite
+dbname {db_path}
 dbuser YourDBLoginName
 dbpass YourDBLoginPass
 dbhost YourDBHost
